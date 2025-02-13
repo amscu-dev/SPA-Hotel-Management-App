@@ -1,0 +1,41 @@
+import styled from "styled-components";
+import { useUser } from "./useUser";
+
+// STILIZAREA COMPONENTELOR
+const StyledUserAvatar = styled.div`
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--color-grey-600);
+`;
+
+const Avatar = styled.img`
+  display: block;
+  width: 4rem;
+  width: 3.6rem;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  outline: 2px solid var(--color-grey-100);
+`;
+
+function UserAvatar() {
+  // STATE
+  const { user } = useUser(); // Obținem datele utilizatorului din hook-ul useUser
+  const { fullName, avatar } = user.user_metadata;
+  // UI
+  return (
+    <StyledUserAvatar>
+      <Avatar
+        src={avatar || "default-user.jpg"} // Folosim avatar-ul utilizatorului, sau unul implicit în caz că nu există
+        alt={`Avatar of ${fullName}`}
+      />
+      <span>{fullName}</span>
+    </StyledUserAvatar>
+  );
+}
+
+export default UserAvatar;
