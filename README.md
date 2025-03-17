@@ -14,10 +14,6 @@ Este o aplicație modernă de management hotelier, dezvoltată pentru a demonstr
 - [Funcționalități](#funcționalități)
 - [Tehnologii folosite](#tehnologii-folosite)
 - [Arhitectura Aplicației](#arhitectura-aplicației)
-- [Instalare și Configurare](#instalare-și-configurare)
-- [Utilizare](#utilizare)
-- [Contribuții](#contribuții)
-- [Licență](#licență)
 
 ## Funcționalități
 
