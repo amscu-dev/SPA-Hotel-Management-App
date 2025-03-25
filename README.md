@@ -1,8 +1,8 @@
 # SPA Hotel Management Demo
 
-**Puteți încerca o versiune complet funcțională a acestui feature :** https://spa-hotel-management-app.vercel.app
+**Puteți încerca o versiune complet funcțională a acestei aplicații :** https://spa-hotel-management-app.vercel.app
 
-**Sursa video pentru prezentarea toolkit-ului :**
+**Prezentarea video a proiectului :** https://www.loom.com/share/831bc43c9f014772bc6bbd9df22c6122?sid=432ecd07-b7fd-4c27-998a-8ecd8b622fa5
 
 ## Descriere
 
